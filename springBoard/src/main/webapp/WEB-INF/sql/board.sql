@@ -9,7 +9,7 @@ CREATE TABLE board (
 	content VARCHAR(2000) NOT NULL COMMENT '내용',
 	passwd INT(6) NOT NULL COMMENT '글비밀번호',
 	viewcnt INT(5) NOT NULL DEFAULT 0 COMMENT '조회수',
-	ip VARCHAR(50) NOT NULL COMMENT '아이피',
+	filename VARCHAR(200) NOT NULL COMMENT '파일',
 	PRIMARY KEY (boardno)
 );
 
