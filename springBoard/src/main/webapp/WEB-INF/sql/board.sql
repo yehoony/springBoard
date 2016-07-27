@@ -49,15 +49,15 @@ CREATE TABLE reply (
 
 --게시판 입력
 insert board (writer, writedate, title, content, passwd, viewcnt, ip)
-values('김예훈', now(), '테스트1', '테스트내용1', '1234', 0, '0.0.0.0');
+values('김예훈', now(), '테스트1', '테스트내용1', '1234', 0, 'test.jpg');
 insert board (writer, writedate, title, content, passwd, viewcnt, ip)
-values('김예훈', now(), '테스트2', '테스트내용2', '1234', 0, '0.0.0.0');
+values('김예훈', now(), '테스트2', '테스트내용2', '1234', 0, 'test.jpg');
 insert board (writer, writedate, title, content, passwd, viewcnt, ip)
-values('김예훈', now(), '테스트3', '테스트내용3', '1234', 0, '0.0.0.0');
+values('김예훈', now(), '테스트3', '테스트내용3', '1234', 0, 'test.jpg');
 insert board (writer, writedate, title, content, passwd, viewcnt, ip)
-values('김예훈', now(), '테스트4', '테스트내용4', '1234', 0, '0.0.0.0');
+values('김예훈', now(), '테스트4', '테스트내용4', '1234', 0, 'test.jpg');
 insert board (writer, writedate, title, content, passwd, viewcnt, ip)
-values('김예훈', now(), '테스트5', '테스트내용5', '1234', 0, '0.0.0.0');
+values('김예훈', now(), '테스트5', '테스트내용5', '1234', 0, 'test.jpg');
 
 --게시판 수정
 UPDATE board SET
@@ -68,7 +68,7 @@ title = '',
 content = '', 
 passwd = '', 
 viewcnt = '', 
-ip = ''
+filename = ''
 WHERE boardno = 1;
 --게시판 삭제
 		
